@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: Nunito;
 }
 
 .App-logo {
@@ -113,6 +114,12 @@ h5{
 
 .link {
   cursor: pointer;
+  color: #e7754c;
+}
+
+.nlink {
+  cursor: pointer;
+  color: #d1dde4d7;
 }
 
 .loggedIn {

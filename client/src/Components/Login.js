@@ -95,7 +95,7 @@ function Login({ onLogin }) {
                 <br></br>
                 <div style={{display: 'block', width: '60vw', margin: 'auto', overflow: 'hidden'}}> 
                     <h1>Welcome to <span className="orange">BeatMatch</span></h1> 
-                    <h2 style={{marginBottom: '20px'}}>Where rappers and producers can easily connect with other artists</h2>
+                    <h2 style={{marginBottom: '20px', color: 'gray'}}>Where rappers and producers can easily connect with other artists</h2>
                     <h3>🎧 🎹 🎸🎤🎵🤝</h3>
                 </div>
                 <br></br>
@@ -126,7 +126,7 @@ function Login({ onLogin }) {
 
                                         </div>
                                         <div className="mt-6 pt-2">
-                                            <input className="btn btn-primary btn-lg" type="submit" value="Submit" /> 
+                                            <input className="btn btn-lg" style={{backgroundColor: '#e95420', color: 'white'}} type="submit" value="Submit" /> 
                                             <br/>
                                             <br/>
                                             <a  className="link" onClick={handleClick}>New to BeatMatch? Create Your Profile!</a>
